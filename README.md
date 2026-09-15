@@ -1,16 +1,19 @@
-# Goal
+## Prerequisites
 
-Create an app that displays a list of movies with the ability to compare the similarities of two movies.
+Install [Node.js](https://nodejs.org/) and npm before starting the app.
 
-## Tasks
+## Start the App
 
-1. Use the content service to list all movies in the form of a grid. (src/api/data.json)
-1. Create a section where two movies are compared and you can see if they are similar or not.
+From the project directory, install the dependencies:
 
-## Pointers
+```bash
+npm install
+```
 
-- Ask questions if anything is unclear
-- Check the wireframe images for reference (src/assets/data.json)
-- Aim for responsive design
-- Work with the function inside content.js for data fetching, avoid working directly with the JSON file
-- "products" in the API are the movies objects in the wireframe images
+Start the development server:
+
+```bash
+npm start
+```
+
+The app opens automatically at [http://localhost:3000](http://localhost:3000). If it does not open, visit that address in your browser.
